@@ -4,6 +4,7 @@ import matplotlib.pylot as plt
 cov=covid.Covid()
 
 name = input("ENTER the country name")
+print(name)
 virusdata=covid.get_status_by_country
 active=virusdata['active']
 recover=virusdata['recovered']
